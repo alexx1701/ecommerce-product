@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+h1 {
+  font-size: 1.8rem;
+}
+.profile {
+  width: 1.5rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 1rem 1rem;
+  min-height: 2rem;
+  ul {
+    display: none;
+  }
+  h1 {
+    margin-right: 11rem;
+  }
+}
+.main {
+  img {
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+.text {
+  text-align: left;
+  padding: 0.5rem 1rem 1.5rem;
+  h2 {
+    width: 15rem;
+    margin: 1rem 0;
+  }
+  h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+  }
+  p {
+    color: hsl(219, 9%, 45%);
+  }
+}
+.price-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 1rem 1rem;
+}
+.discount {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+  margin-right: 12rem;
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  padding: 2px 6px;
+  border-radius: 25%;
+}
+.original-price {
+  font-size: 1rem;
+  color: hsl(220, 14%, 75%);
+  text-decoration: line-through;
+}
+.item-amount,
+.cart {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  height: 3rem;
+  border-radius: 10px / 5px;
+  padding: 0 1rem;
+  background-color: hsl(223, 64%, 98%);
+  margin: 1rem auto;
+  img {
+    width: 1rem;
+    height: auto;
+  }
+}
+.item-amount {
+  justify-content: space-between;
+  button {
+    border-style: none;
+    background-color: hsl(223, 64%, 98%);
+  }
+}
+.cart {
+  justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  gap: 1rem;
+  color: white;
+  border-style: none;
+  text-decoration: none;
+  background-color: hsl(26, 100%, 55%);
+  margin-bottom: 5rem;
+}
